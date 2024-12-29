@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html" class="back">←Back</a>
+    <div class="formpage">
+        <h2>Registration form for Patient</h2>
+        <form class="form-reg">
+            <div class="content">
+                <label for="name"><b>Name:</b></label>
+                <input type="text" placeholder="Enter the the Patient Name" name="Name" required>
+            </div>
+            <br />
+            <div class="content">
+                <label for="phonenumber"><b>Phonenumber:</b></label>
+                <input type="tel" placeholder="Enter the Phonenumber" required>
+            </div>
+            <br />
+            <div class="content">
+                <label for="gender"><b>Gender:</b></label>
+                <input type="radio" name="gender" value="male"><b>Male</b>
+                <input type="radio" name="gender" value="female"><b>Female</b>
+                <input type="radio" name="gender" value="others"><b>Others</b>
+            </div>
+            <br />
+            <div class="content">
+                <label for="date"><b>Date of Birth:</b></label>
+                <input type="date" name="date" required>
+            </div>
+            <br />
+            <div class="content">
+                <label for="address"><b>Address:</b></label>
+                <input type="text" placeholder="Enter the Address" name="address" required>
+            </div>
+            <br />
+            <div class="content">
+                <label for="date"><b>Date and Time of Admit:</b></label>
+                <input type="datetime-local" name="date" required>
+            </div>
+            <br />
+            <div class="content">
+                <label for="freeform"><b>Why Patient Admited:</b></label>
+                <textarea name="freeform" rows="2" cols="30"></textarea><br/>
+            </div>
+            <br/>
+            <div class="submit">
+                <input type="submit" value="SUBMIT" width="100px">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

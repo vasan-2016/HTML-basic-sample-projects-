@@ -1,0 +1,256 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/******* header *******/
+
+header {
+    color: white;
+    background-image: url(shapenirvana.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+header h1{
+   display: inline;
+   margin-bottom: 25px;
+   padding: 10px;
+}
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin-top: 25px;
+}
+
+nav ul li {
+   display: inline;
+   cursor: pointer;
+   margin: 0 5px;
+   background-color: white;
+   border-radius: 2px;
+   padding: 5px 5px;
+
+   
+}
+
+nav ul li a{
+    color: black;
+    position: relative;
+    text-decoration: none;   
+    font-weight: bolder;
+    transition: transform 0.3 ease;
+}
+
+nav ul li:hover{
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background: transparent;
+}
+
+nav ul li a:hover{
+    color:rgb(0, 0, 0)
+}
+
+/*********  header end ******/
+
+footer{
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin:5px;
+    text-align: center;
+}
+
+
+/*******************REGISTER***************/
+
+.back{
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border: 5px black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background 0.3s,transform 0.3s ease;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+.back:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.formpage{
+    margin:50px;
+    padding: 20px;
+    background-color: rgb(197, 195, 191);
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+.form-reg{
+    display: inline-block;
+    background-color: white;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px;
+    text-align: left;
+    transition: background  0.3s;
+    transition: transform 0.3s ease ;
+}
+
+.content:hover{
+    background-color: rgb(120, 212, 120);
+    color:rgb(0, 0, 0)
+}
+.content:hover{
+    transform: scale(1.02);
+}
+
+input{
+    cursor: pointer;
+}
+textarea{
+    cursor: pointer;
+}
+.submit input{
+    border: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background  0.3s;
+    transition: transform 0.3s ease ;
+}
+
+.submit input:hover{
+    background-color: rgb(75, 75, 218);
+    color:white;
+    transform: scale(1.02);
+}
+
+/**************** REGISTER END *****************/
+
+/*********    check   *******/
+
+.check{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.check form{
+    padding: 0;
+}
+.input-check{
+    position: relative;
+    padding: 0px;
+    margin: 10px;
+    
+}
+
+.input-check input{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding: 0.15px;
+    border: 2px solid black;
+    background: transparent;
+    outline: none;
+    border-radius: 4px;
+}
+
+.input-check label{
+    position: absolute;
+    top: 50%;
+    left:38%;
+    transform: translateY(-50%);
+    font-size: 19px;
+    pointer-events: none;
+    transition: -3s;
+}
+
+.input-check input:hover{
+    border: 2px solid rgb(120, 212, 120);
+}
+
+.input-check input:focus ~ label,
+.input-check input:valid ~ label{
+    top: 0;
+    font-size: 16px;
+    padding: 0.10px;
+    background: white;
+}
+
+/*******      check  end *********/
+
+/******        about      *********/
+
+.about p{
+    padding: 0%;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+/********** about end ********/
+
+/******     register home ********/
+
+.register-home{
+    text-align: center;
+    text-decoration: none;
+}
+
+.register-home a{
+    text-decoration: none;
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.3s,transform 0.3s ease;
+}
+
+.register-home a:hover{
+    background-color: #0000ff;
+    transform: scale(1.05);
+}
+
+/************ register home end ****************/
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.welc{
+    text-align: center;
+}
